@@ -1,0 +1,92 @@
+@charset "utf-8";
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+
+
+.main, .footer, .header{
+  width: 1000px;
+  margin: 0 auto;
+}
+/* 메인 콘텐츠 레이아웃 */
+.main{
+ 
+  background: yellow;
+}
+/* .main::before{
+  content: "첫번째 가상 요소 박스";
+  background-color: grey;
+} */
+
+.main::after{
+  content: "";
+  background-color: grey;
+  display: block;
+  clear: both;
+}
+.header{
+  background-color: blueviolet;
+}
+.recommend-book{
+  width: 320px;
+  float: left;
+  margin-right: 20px;
+  background-color:pink;
+}
+.news{
+  width: 660px;
+    float: right;
+      background-color:orange;
+
+
+}
+.board{
+  width: 320px;
+  float: left;
+    background-color:olive;
+
+}
+.favorite-site{
+  width: 235px;
+      float: right;
+        background-color:violet;
+
+
+}
+.twitter{
+  width: 405px;
+  background: skyblue;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer{
+  background: lime;
+}
+
+
+
+
+.box{
+  background:yellow;
+  border: 5px solid red;
+  font-size: 20px;
+  width: 500px;
+}
+.box1{
+  background:rgba(0, 255, 0, 0.5);
+  float: right;;
+}
+.box2{
+  background:rgba(0, 0, 255, 0.5);
+}
+.box3{
+  background:rgba(255, 100, 0, 0.5);
+  float: right;
+}
+.box4{
+  background:rgba(0, 200 , 150, 1);
+  float: left;
+  width: 400px;
+}
