@@ -1,0 +1,45 @@
+@charset "uft-8";
+
+.box1{
+  background: yellow;
+  position: relative;
+  top: -5px;
+  left: -5px;
+  width: 500px;
+  padding: 20px;
+  border: 10px solid black;
+
+}
+.note {
+  width: 560px;
+  background: blue;
+}
+.note2{
+  background:red;
+  position: relative;
+  height: 200px;
+  width: 600px;
+}
+.box2{
+  background: lime;
+  position: absolute;
+  margin: auto;
+}
+.fix{
+  background: pink;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+}
+.container{
+  position: relative;
+}
+.stic{
+  background: orange;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
