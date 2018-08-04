@@ -1,0 +1,13 @@
+@charset   "uft-8";
+
+ td, th{
+  border-bottom: 1px solid black;
+  
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.a11y{
+  display: none;
+}
